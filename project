@@ -1,0 +1,72 @@
+def jls_extract_def():
+    
+    return 
+
+
+List_Full = [] = jls_extract_def()
+
+def jlsextract_def():
+    
+    return 
+
+
+List_O = jls_extract_def()
+
+
+
+List_E = []
+
+
+
+
+List_Res= []
+
+
+
+
+
+
+
+
+
+
+
+One = int(input("Enter Count:"))
+print("Enter Number for List:")
+for x in range(0,One):
+
+    List_Full.append(int(input()))
+
+for a in List_Full:
+
+    if a not in List_Res and a>=0:
+
+     List_Res.append(a)
+
+    
+
+    if   Number %2 != 0:
+
+
+
+        List_O.append(Number)
+
+
+    if Number % 2 == 0 :
+
+
+
+
+        List_E.append(Number)
+    
+
+
+     
+
+print("Number Is:",List_Res)
+
+
+print("Odd:",List_O)
+
+
+print("Even: ",List_E)
