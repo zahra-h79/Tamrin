@@ -1,0 +1,58 @@
+List_Full = []
+
+
+List_O = []
+
+
+
+List_E = []
+
+
+
+
+List_Res= []
+
+
+
+
+
+
+
+
+
+
+
+One = int(input("Enter Count:"))
+print("Enter Number for List:")
+for x in range(0,One):
+
+    List_Full.append(int(input()))
+
+for a in List_Full:
+
+    if a not in List_Res :
+
+     List_Res.append(a)
+
+    
+for Number in List_Res:
+
+    if Number % 2 == 0 and Number >= 0 :
+
+        List_E.append(Number)
+
+    elif Number %2 !=0  and Number >= 0:
+
+        List_O.append(Number)
+    
+
+
+     
+
+print("Number Is:",List_Res)
+
+
+print("Odd:",List_O)
+
+
+print("Even: ",List_E)
